@@ -1,0 +1,6 @@
+1. User POSTs to /post username and password
+2. Server hashes password to compare with a database entry:
+User.find([username: ‘bob’,password:  ’the hashed password})
+	if (userFound)  {
+
+}
